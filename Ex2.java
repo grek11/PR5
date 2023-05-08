@@ -27,11 +27,11 @@ class Philosopher extends Thread
             while(num < 3)
             {
                 sem.acquire();
-                System.out.println("Філософ" + id + " сідає за стіл");
+                System.out.println("Filosof" + id + " sidae za stil");
                 sleep(500);
                 num++;
 
-                System.out.println("Філософ" + id + " виходить з-заа столу");
+                System.out.println("Filosof " + id + " vyhode z-za stolu");
                 sem.release();
 
                 sleep(500);
@@ -39,7 +39,7 @@ class Philosopher extends Thread
         }
         catch(InterruptedException e)
         {
-            System.out.println("У філософа " + id + " проблеми із здоров'ям");
+            System.out.println("U filosofa " + id + " problemy zi zdoroviam");
         }
     }
 }

@@ -1,7 +1,5 @@
-public class Program
-{
-    static void Main(string[] args)
-    {
+public class Program {
+    public static void main(String[] args) {
         Store store = new Store();
         Producer producer = new Producer(store);
         Consumer consumer = new Consumer(store);
@@ -10,41 +8,39 @@ public class Program
     }
 }
 
-class Store
-{
+class Store {
     private int product = 0;
-    public synchronized void get()
-    {
-        while (product < 1)
-        {
-            try
-            {
+
+    public synchronized void get() {
+        while (product < 1) {
+            try {
                 wait();
+            } catch (InterruptedException e) {
             }
-            catch (IntrerruptedException e) { }
         }
         product--;
-        System.out.println("Покупець купив 1 товар");
-        System.out.println("Товарів на складі: ");
+        System.out.println("Pokupets kupyv 1 tovar");
+        System.out.println("Tovariv na skladi: " + product);
         notify();
     }
+
     public synchronized void put() {
         while (product >= 3) {
             try {
                 wait();
+            } catch (InterruptedException e) {
             }
-            catch (IntrerruptedException e) { }
         }
         product++;
-        System.out.println("Виробник додав 1 товар");
-        System.out.println("Товарів на складі: " + product);
+        System.out.println("Vyrobnyk dodav 1 tovar");
+        System.out.println("Tovariv na skladi: " + product);
         notify();
     }
 }
 
 class Producer implements Runnable {
-
     Store store;
+
     Producer(Store store) {
         this.store = store;
     }
@@ -57,8 +53,8 @@ class Producer implements Runnable {
 }
 
 class Consumer implements Runnable {
-
     Store store;
+
     Consumer(Store store) {
         this.store = store;
     }
