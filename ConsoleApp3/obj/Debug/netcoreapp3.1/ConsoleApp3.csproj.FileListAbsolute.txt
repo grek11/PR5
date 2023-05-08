@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.exe
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.deps.json
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.json
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.dev.json
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.dll
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.pdb
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfo.cs
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.dll
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.pdb
+C:\Users\user\Desktop\теорія розподілених систем та паралельних обчислень\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.genruntimeconfig.cache
